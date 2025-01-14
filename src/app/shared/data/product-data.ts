@@ -3,15 +3,15 @@ import { IProduct } from "../types/product-d-t";
 const product_data:IProduct[] = [
   {
     id: 1,
-    img: 'assets/img/shop/product/product_1.png',
+    img: 'assets/img/nyglo/1.jpeg',
     trending:true,
     banner:true,
     related_images: [
-      'assets/img/shop/product/product_1.png',
-      'assets/img/shop/product/product_2.png',
-      'assets/img/shop/product/product_3.png'
+      'assets/img/nyglo/1.jpeg',
+      'assets/img/nyglo/2.jpeg',
+      'assets/img/nyglo/3.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_3.png',
+    thumb_img: 'assets/img/nyglo/3.jpeg',
     banner_img:'assets/img/shop/banner/banner-big-1.jpg',
     parentCategory:'Decoration & Accessories',
     category: 'Accessories',
@@ -64,14 +64,14 @@ const product_data:IProduct[] = [
   },
   {
     id: 2,
-    img:'assets/img/shop/product/product_2.png',
+    img:'assets/img/nyglo/2.jpeg',
     trending:true,
     related_images: [
-      'assets/img/shop/product/product_2.png',
-      'assets/img/shop/product/product_3.png',
-      'assets/img/shop/product/product_4.png'
+      'assets/img/nyglo/2.jpeg',
+      'assets/img/nyglo/3.jpeg',
+      'assets/img/nyglo/4.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_5.png',
+    thumb_img: 'assets/img/nyglo/5.jpeg',
     parentCategory:'Lighting & Chair',
     category: 'Chair',
     brand: 'Sony',
@@ -123,15 +123,15 @@ const product_data:IProduct[] = [
   },
   {
     id: 3,
-    img: 'assets/img/shop/product/product_3.png',
+    img: 'assets/img/nyglo/3.jpeg',
     trending:true,
     banner:true,
     related_images: [
-      'assets/img/shop/product/product_3.png',
-      'assets/img/shop/product/product_4.png',
-      'assets/img/shop/product/product_5.png'
+      'assets/img/nyglo/3.jpeg',
+      'assets/img/nyglo/4.jpeg',
+      'assets/img/nyglo/5.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_1.png',
+    thumb_img: 'assets/img/nyglo/1.jpeg',
     banner_img:'assets/img/shop/banner/banner-big-2.jpg',
     parentCategory:'Clothing & Oil',
     category: 'Clothing',
@@ -184,16 +184,16 @@ const product_data:IProduct[] = [
   },
   {
     id: 4,
-    img: 'assets/img/shop/product/product_4.png',
+    img: 'assets/img/nyglo/4.jpeg',
     trending:true,
     discount:8,
     new:true,
     related_images: [
-      'assets/img/shop/product/product_4.png',
-      'assets/img/shop/product/product_5.png',
-      'assets/img/shop/product/product_6.png'
+      'assets/img/nyglo/4.jpeg',
+      'assets/img/nyglo/5.jpeg',
+      'assets/img/nyglo/6.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_2.png',
+    thumb_img: 'assets/img/nyglo/2.jpeg',
     parentCategory:'Lighting & Chair',
     category: 'Lighting',
     brand: 'Panasonic',
@@ -245,14 +245,14 @@ const product_data:IProduct[] = [
   },
   {
     id: 5,
-    img: 'assets/img/shop/product/product_5.png',
+    img: 'assets/img/nyglo/5.jpeg',
     trending:true,
     related_images: [
-      'assets/img/shop/product/product_5.png',
-      'assets/img/shop/product/product_6.png',
-      'assets/img/shop/product/product_7.png'
+      'assets/img/nyglo/5.jpeg',
+      'assets/img/nyglo/6.jpeg',
+      'assets/img/nyglo/7.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_8.png',
+    thumb_img: 'assets/img/nyglo/8.jpeg',
     parentCategory:'Decoration & Accessories',
     category: 'Decoration',
     brand: 'Apple',
@@ -304,14 +304,14 @@ const product_data:IProduct[] = [
   },
   {
     id: 6,
-    img: 'assets/img/shop/product/product_6.png',
+    img: 'assets/img/nyglo/6.jpeg',
     trending:true,
     related_images: [
-      'assets/img/shop/product/product_6.png',
-      'assets/img/shop/product/product_7.png',
-      'assets/img/shop/product/product_8.png'
+      'assets/img/nyglo/6.jpeg',
+      'assets/img/nyglo/7.jpeg',
+      'assets/img/nyglo/8.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_1.png',
+    thumb_img: 'assets/img/nyglo/1.jpeg',
     parentCategory:'FASHION FOR MEN’S',
     category: 'Shirt',
     brand: 'Apple',
@@ -363,15 +363,15 @@ const product_data:IProduct[] = [
   },
   {
     id: 7,
-    img: 'assets/img/shop/product/product_7.png',
+    img: 'assets/img/nyglo/7.jpeg',
     trending:true,
     new:true,
     related_images: [
-      'assets/img/shop/product/product_7.png',
-      'assets/img/shop/product/product_8.png',
-      'assets/img/shop/product/product_9.png'
+      'assets/img/nyglo/7.jpeg',
+      'assets/img/nyglo/8.jpeg',
+      'assets/img/nyglo/9.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_6.png',
+    thumb_img: 'assets/img/nyglo/6.jpeg',
     parentCategory:'Clothing & Oil',
     category: 'Oil',
     brand: 'Apple',
@@ -423,14 +423,14 @@ const product_data:IProduct[] = [
   },
   {
     id: 8,
-    img: 'assets/img/shop/product/product_8.png',
+    img: 'assets/img/nyglo/8.jpeg',
     trending:true,
     related_images: [
-      'assets/img/shop/product/product_8.png',
-      'assets/img/shop/product/product_9.png',
-      'assets/img/shop/product/product_10.png'
+      'assets/img/nyglo/8.jpeg',
+      'assets/img/nyglo/9.jpeg',
+      'assets/img/nyglo/10.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_4.png',
+    thumb_img: 'assets/img/nyglo/4.jpeg',
     parentCategory:'Decoration & Accessories',
     category: 'Decoration',
     brand: 'Samsung',
@@ -482,14 +482,14 @@ const product_data:IProduct[] = [
   },
   {
     id: 9,
-    img: 'assets/img/shop/product/product_9.png',
+    img: 'assets/img/nyglo/9.jpeg',
     discount:12,
     related_images: [
-      'assets/img/shop/product/product_9.png',
-      'assets/img/shop/product/product_10.png',
-      'assets/img/shop/product/product_11.png'
+      'assets/img/nyglo/9.jpeg',
+      'assets/img/nyglo/10.jpeg',
+      'assets/img/nyglo/11.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_7.png',
+    thumb_img: 'assets/img/nyglo/7.jpeg',
     parentCategory:'Lighting & Chair',
     category: 'Chair',
     brand: 'Samsung',
@@ -540,14 +540,14 @@ const product_data:IProduct[] = [
   },
   {
     id: 10,
-    img: 'assets/img/shop/product/product_10.png',
+    img: 'assets/img/nyglo/10.jpeg',
     discount:25,
     related_images: [
-      'assets/img/shop/product/product_10.png',
-      'assets/img/shop/product/product_11.png',
-      'assets/img/shop/product/product_12.png'
+      'assets/img/nyglo/10.jpeg',
+      'assets/img/nyglo/11.jpeg',
+      'assets/img/nyglo/12.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_8.png',
+    thumb_img: 'assets/img/nyglo/8.jpeg',
     parentCategory:'Clothing & Oil',
     category: 'Clothing',
     brand: 'Apple',
@@ -598,15 +598,15 @@ const product_data:IProduct[] = [
   },
   {
     id: 11,
-    img: 'assets/img/shop/product/product_11.png',
+    img: 'assets/img/nyglo/11.jpeg',
     trending:true,
     discount:16,
     related_images: [
-      'assets/img/shop/product/product_11.png',
-      'assets/img/shop/product/product_12.png',
-      'assets/img/shop/product/product_13.png'
+      'assets/img/nyglo/11.jpeg',
+      'assets/img/nyglo/12.jpeg',
+      'assets/img/nyglo/13.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_9.png',
+    thumb_img: 'assets/img/nyglo/9.jpeg',
     parentCategory:'Decoration & Accessories',
     category: 'Decoration',
     brand: 'Sony',
@@ -657,15 +657,15 @@ const product_data:IProduct[] = [
   },
   {
     id: 12,
-    img: 'assets/img/shop/product/product_12.png',
+    img: 'assets/img/nyglo/12.jpeg',
     discount:8,
     new:true,
     related_images: [
-      'assets/img/shop/product/product_12.png',
-      'assets/img/shop/product/product_13.png',
-      'assets/img/shop/product/product_14.png'
+      'assets/img/nyglo/12.jpeg',
+      'assets/img/nyglo/13.jpeg',
+      'assets/img/nyglo/14.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_10.png',
+    thumb_img: 'assets/img/nyglo/10.jpeg',
     parentCategory:'Decoration & Accessories',
     category: 'Accessories',
     brand: 'Panasonic',
@@ -716,15 +716,15 @@ const product_data:IProduct[] = [
   },
   {
     id: 13,
-    img: 'assets/img/shop/product/product_13.png',
+    img: 'assets/img/nyglo/13.jpeg',
     discount:14,
     trending:true,
     related_images: [
-      'assets/img/shop/product/product_13.png',
-      'assets/img/shop/product/product_14.png',
-      'assets/img/shop/product/product_15.png'
+      'assets/img/nyglo/13.jpeg',
+      'assets/img/nyglo/14.jpeg',
+      'assets/img/nyglo/15.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_11.png',
+    thumb_img: 'assets/img/nyglo/11.jpeg',
     parentCategory:'Lighting & Chair',
     category: 'Lighting',
     brand: 'Panasonic',
@@ -775,15 +775,15 @@ const product_data:IProduct[] = [
   },
   {
     id: 14,
-    img: 'assets/img/shop/product/product_14.png',
+    img: 'assets/img/nyglo/14.jpeg',
     discount:20,
     bestSeller:true,
     related_images: [
-      'assets/img/shop/product/product_14.png',
-      'assets/img/shop/product/product_15.png',
-      'assets/img/shop/product/product_16.png'
+      'assets/img/nyglo/14.jpeg',
+      'assets/img/nyglo/15.jpeg',
+      'assets/img/nyglo/16.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_13.png',
+    thumb_img: 'assets/img/nyglo/13.jpeg',
     parentCategory:'Clothing & Oil',
     category: 'Clothing',
     brand: 'Sony',
@@ -834,14 +834,14 @@ const product_data:IProduct[] = [
   },
   {
     id: 15,
-    img: 'assets/img/shop/product/product_15.png',
+    img: 'assets/img/nyglo/15.jpeg',
     trending:true,
     related_images: [
-      'assets/img/shop/product/product_15.png',
-      'assets/img/shop/product/product_16.png',
-      'assets/img/shop/product/product_17.png'
+      'assets/img/nyglo/15.jpeg',
+      'assets/img/nyglo/16.jpeg',
+      'assets/img/nyglo/18.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_13.png',
+    thumb_img: 'assets/img/nyglo/13.jpeg',
     big_img:'assets/img/shop/product/product-big-1.jpg',
     parentCategory:'Decoration & Accessories',
     category: 'Decoration',
@@ -894,14 +894,14 @@ const product_data:IProduct[] = [
   },
   {
     id: 16,
-    img: 'assets/img/shop/product/product_16.png',
+    img: 'assets/img/nyglo/16.jpeg',
     discount:13,
     related_images: [
-      'assets/img/shop/product/product_16.png',
-      'assets/img/shop/product/product_17.png',
-      'assets/img/shop/product/product_18.png'
+      'assets/img/nyglo/16.jpeg',
+      'assets/img/nyglo/18.jpeg',
+      'assets/img/nyglo/17.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_13.png',
+    thumb_img: 'assets/img/nyglo/13.jpeg',
     parentCategory:'Lighting & Chair',
     category: 'Lighting',
     brand: 'Samsung',
@@ -952,14 +952,14 @@ const product_data:IProduct[] = [
   },
   {
     id: 17,
-    img: 'assets/img/shop/product/product_17.png',
+    img: 'assets/img/nyglo/18.jpeg',
     bestSeller:true,
     related_images: [
-      'assets/img/shop/product/product_17.png',
-      'assets/img/shop/product/product_18.png',
-      'assets/img/shop/product/product_19.png'
+      'assets/img/nyglo/18.jpeg',
+      'assets/img/nyglo/17.jpeg',
+      'assets/img/nyglo/19.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_15.png',
+    thumb_img: 'assets/img/nyglo/15.jpeg',
     big_img:'assets/img/shop/product/fashion/fashion-b2.webp',
     parentCategory:'Decoration & Accessories',
     category: 'Accessories',
@@ -1013,15 +1013,15 @@ const product_data:IProduct[] = [
   },
   {
     id: 18,
-    img: 'assets/img/shop/product/product_18.png',
+    img: 'assets/img/nyglo/17.jpeg',
     topRated:true,
     bestSeller:true,
     related_images: [
-      'assets/img/shop/product/product_18.png',
-      'assets/img/shop/product/product_19.png',
-      'assets/img/shop/product/product_20.png'
+      'assets/img/nyglo/17.jpeg',
+      'assets/img/nyglo/19.jpeg',
+      'assets/img/nyglo/20.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_16.png',
+    thumb_img: 'assets/img/nyglo/16.jpeg',
     big_img:'assets/img/shop/product/fashion/fashion-b1.webp',
     discount:5,
     parentCategory:'Clothing & Oil',
@@ -1074,15 +1074,15 @@ const product_data:IProduct[] = [
   },
   {
     id: 19,
-    img: 'assets/img/shop/product/product_19.png',
+    img: 'assets/img/nyglo/19.jpeg',
     topRated:true,
     bestSeller:true,
     related_images: [
-      'assets/img/shop/product/product_19.png',
-      'assets/img/shop/product/product_20.png',
-      'assets/img/shop/product/product_21.png'
+      'assets/img/nyglo/19.jpeg',
+      'assets/img/nyglo/20.jpeg',
+      'assets/img/nyglo/21.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_17.png',
+    thumb_img: 'assets/img/nyglo/18.jpeg',
     parentCategory:'FASHION FOR MEN’S',
     category: 'Shirt',
     brand: 'Apple',
@@ -1133,15 +1133,15 @@ const product_data:IProduct[] = [
   },
   {
     id: 20,
-    img: 'assets/img/shop/product/product_20.png',
+    img: 'assets/img/nyglo/20.jpeg',
     topRated:true,
     bestSeller:true,
     related_images: [
-      'assets/img/shop/product/product_20.png',
-      'assets/img/shop/product/product_21.png',
-      'assets/img/shop/product/product_22.png'
+      'assets/img/nyglo/20.jpeg',
+      'assets/img/nyglo/21.jpeg',
+      'assets/img/nyglo/12.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_18.png',
+    thumb_img: 'assets/img/nyglo/17.jpeg',
     discount:8,
     parentCategory:'Clothing & Oil',
     category:'Oil',
@@ -1193,15 +1193,15 @@ const product_data:IProduct[] = [
   },
   {
     id: 21,
-    img: 'assets/img/shop/product/product_21.png',
+    img: 'assets/img/nyglo/21.jpeg',
     trending:true,
     topRated:true,
     related_images: [
-      'assets/img/shop/product/product_21.png',
-      'assets/img/shop/product/product_22.png',
-      'assets/img/shop/product/product_23.png'
+      'assets/img/nyglo/21.jpeg',
+      'assets/img/nyglo/12.jpeg',
+      'assets/img/nyglo/11.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_16.png',
+    thumb_img: 'assets/img/nyglo/16.jpeg',
     big_img:'assets/img/shop/product/product-big-3.jpg',
     parentCategory:'FASHION FOR WOMEN’S',
     category: 'Shoes',
@@ -1254,15 +1254,15 @@ const product_data:IProduct[] = [
   },
   {
     id: 22,
-    img: 'assets/img/shop/product/product_22.png',
+    img: 'assets/img/nyglo/12.jpeg',
     trending:true,
     topRated:true,
     related_images: [
-      'assets/img/shop/product/product_22.png',
-      'assets/img/shop/product/product_23.png',
-      'assets/img/shop/product/product_21.png'
+      'assets/img/nyglo/12.jpeg',
+      'assets/img/nyglo/11.jpeg',
+      'assets/img/nyglo/21.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_19.png',
+    thumb_img: 'assets/img/nyglo/19.jpeg',
     parentCategory:"FASHION FOR BABY",
     category: 'Shoes',
     brand: 'Apple',
@@ -1313,14 +1313,14 @@ const product_data:IProduct[] = [
   },
   {
     id: 23,
-    img: 'assets/img/shop/product/product_23.png',
+    img: 'assets/img/nyglo/11.jpeg',
     bestSeller:true,
     related_images: [
-      'assets/img/shop/product/product_23.png',
-      'assets/img/shop/product/product_21.png',
-      'assets/img/shop/product/product_20.png'
+      'assets/img/nyglo/11.jpeg',
+      'assets/img/nyglo/21.jpeg',
+      'assets/img/nyglo/20.jpeg'
     ],
-    thumb_img: 'assets/img/shop/product/product_11.png',
+    thumb_img: 'assets/img/nyglo/11.jpeg',
     parentCategory:'FASHION FOR MEN’S',
     category: 'Shirt',
     brand: 'Apple',

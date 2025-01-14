@@ -13,7 +13,7 @@
           <span *ngIf="product.old_price" class="price-old">${{product.old_price}}</span>
           <div class="add-cart p-absolute transition-3">
             <a *ngIf="!isItemInCart(product)" (click)="addToCart(product)" class="cursor-pointer">
-              + Add to Cart
+              +Ajouter au panier
             </a>
             <a *ngIf="isItemInCart(product)" routerLink="/shop/cart" class="cursor-pointer">
               View Cart

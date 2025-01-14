@@ -1,6 +1,6 @@
 <div class="mini-cart">
   <div *ngIf="cartService.getCartProducts().length === 0">
-    <h5>Your cart is empty</h5>
+    <h5>Votre panier est vide</h5>
   </div>
   <div *ngIf="cartService.getCartProducts().length > 0" class="mini-cart-inner">
     <ul [ngClass]="['mini-cart-list', cartService.getCartProducts().length === 1 ? 'slider-height_1' :  cartService.getCartProducts().length === 2 ? 'slider-height_2' : 'slider-height']">
@@ -27,12 +27,12 @@
       </li>
     </ul>
     <div class="total-price d-flex justify-content-between mb-30">
-      <span>Subtotal:</span>
+      <span>Sous total:</span>
       <span>${{(cartService.totalPriceQuantity().total).toFixed(2)}}</span>
     </div>
     <div class="checkout-link">
-      <a routerLink="/shop/cart" class="os-btn">view Cart</a>
-      <a class="os-btn os-btn-black" routerLink="/pages/checkout">Checkout</a>
+      <a routerLink="/shop/cart" class="os-btn">Voir le panier</a>
+      <a class="os-btn os-btn-black" routerLink="/pages/checkout">Vérifier</a>
     </div>
   </div>
 </div>

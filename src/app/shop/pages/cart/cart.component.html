@@ -5,15 +5,15 @@
 <main>
 
   <!-- breadcrumb start -->
-  <app-breadcrumb-one title="Cart" subtitle="Cart"></app-breadcrumb-one>
+  <app-breadcrumb-one title="Panier" subtitle="Panier"></app-breadcrumb-one>
   <!-- breadcrumb end -->
 
   <!-- Cart Area Strat-->
   <section class="cart-area pt-100 pb-100">
     <div class="container">
       <div *ngIf="cartService.getCartProducts().length === 0" class="text-center pt-50">
-        <h3>No Cart Items Found</h3>
-        <a routerLink="/shop" class="os-btn os-btn-black">Continue Shopping</a>
+        <h3>Aucun article trouvé dans le panier</h3>
+        <a routerLink="/shop" class="os-btn os-btn-black">Continuer les achats</a>
       </div>
 
       <div *ngIf="cartService.getCartProducts().length > 0" class="row">
@@ -23,11 +23,11 @@
                 <thead>
                   <tr>
                     <th class="product-thumbnail">Images</th>
-                    <th class="cart-product-name">Product</th>
-                    <th class="product-price">Unit Price</th>
-                    <th class="product-quantity">Quantity</th>
+                    <th class="cart-product-name">Produit</th>
+                    <th class="product-price">Prix Unitaire</th>
+                    <th class="product-quantity">Quantité</th>
                     <th class="product-subtotal">Total</th>
-                    <th class="product-remove">Remove</th>
+                    <th class="product-remove">Retirer</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -71,13 +71,13 @@
                     <div class="coupon">
                       <input id="coupon_code" class="input-text" name="coupon_code" value="" placeholder="Coupon code" type="text">
                       <button class="os-btn os-btn-black" name="apply_coupon" type="submit">
-                        Apply coupon
+                        Appliquer le coupon
                       </button>
                     </div>
                   </form>
                   <div class="coupon2">
                     <button (click)="cartService.clear_cart()" class="os-btn os-btn-black" name="update_cart" type="submit">
-                      Clear cart
+                      Vider le panier
                     </button>
                   </div>
                 </div>
@@ -86,13 +86,13 @@
             <div class="row">
               <div class="col-md-5 ml-auto">
                 <div class="cart-page-total">
-                  <h2>Cart totals</h2>
+                  <h2>Totaux du panier</h2>
                   <ul class="mb-20">
-                    <li>Subtotal <span>${{(cartService.totalPriceQuantity().total).toFixed(2)}}</span>
+                    <li>Sous total <span>${{(cartService.totalPriceQuantity().total).toFixed(2)}}</span>
                     </li>
                     <li>Total <span>${{(cartService.totalPriceQuantity().total).toFixed(2)}}</span></li>
                   </ul>
-                  <a class="os-btn" routerLink="/pages/checkout">Proceed to checkout</a>
+                  <a class="os-btn" routerLink="/pages/checkout">Passer à la caisse</a>
                 </div>
               </div>
             </div>

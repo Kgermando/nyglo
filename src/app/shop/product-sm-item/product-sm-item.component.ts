@@ -14,7 +14,7 @@ export class ProductSmItemComponent {
     public cartService: CartService
   ) { }
 
-  // add to cart
+  //Ajouter au panier
   addToCart(item: IProduct) {
     this.cartService.addCartProduct(item);
   }

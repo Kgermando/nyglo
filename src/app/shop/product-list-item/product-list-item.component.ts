@@ -21,17 +21,17 @@ export class ProductListItemComponent {
     public utilsService: UtilsService,
   ) {}
 
-  // add to cart
+  //Ajouter au panier
   addToCart(item: IProduct) {
     this.cartService.addCartProduct(item);
   }
 
-   // add to cart
+   //Ajouter au panier
    addToWishlist(product: IProduct) {
     this.wishlistService.add_wishlist_product(product);
   }
 
-  // add to cart
+  //Ajouter au panier
   addToCompare(product: IProduct) {
     this.compareService.add_compare_product(product);
   }

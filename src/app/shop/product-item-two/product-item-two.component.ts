@@ -16,7 +16,7 @@ export class ProductItemTwoComponent {
     public utilsService: UtilsService,
   ) {}
 
-  // add to cart
+  //Ajouter au panier
   addToCart(item: IProduct) {
     this.cartService.addCartProduct(item);
   }

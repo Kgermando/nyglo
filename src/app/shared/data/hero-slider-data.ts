@@ -4,26 +4,27 @@ import { IHeroSlider } from '../types/hero-slider-t';
 const hero_slider_one: IHeroSlider[] = [
   {
     id: 1,
-    bgImg: '/assets/img/slider/slider-1.jpg',
-    title: 'Handmade <br /> Hand carved Coffee',
+    bgImg: '/assets/img/slider/slider-1.jpg', 
+    title: 'Pureté Parfaite <br /> L\'Essence du Bien-Être Domestique!',
     subtitle:
-      'As rich and unique as the coffee beans it is intended for, this little scoop will make your morning ritual a special occasion every day.',
+      'Immergez votre maison dans une atmosphère de fraîcheur et de propreté avec notre désinfectant multi-surfaces à action rapide.',
   },
   {
     id: 2,
     bgImg: '/assets/img/slider/slider-2.jpg',
-    title: 'Think Different &<br /> Do it otherwise',
+    title: 'Éclat Écologique &<br /> Dites Adieu aux Taches récalcitrant!',
     subtitle:
-      'Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.',
+      'Redécouvrez la propreté avec notre gamme de produits respectueux de l\'environnement, conçus pour éliminer les taches les plus tenaces sans compromettre votre santé ni celle de la planète.',
   },
   {
     id: 3,
     bgImg: '/assets/img/slider/slider-3.jpg',
-    title: 'High Beam<br /> by Tom Chung',
+    title: 'Cuisine Lumineuse <br /> Votre Allié Anti-Graisse Imparable!',
     subtitle:
-      'High Beam is an adjustable desk or shelf light that offers a wide variety of lighting possibilities',
+      'Transformez votre cuisine en un espace étincelant avec notre nettoyant ultra-puissant qui défie les graisses les plus récalcitrantes.',
   },
 ];
+
 
 // hero slider two
 const hero_slider_two: IHeroSlider[] = [
