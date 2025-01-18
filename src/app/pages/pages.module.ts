@@ -17,6 +17,7 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { ContactComponent } from './contact/contact.component';
 import { AccountComponent } from './account/account.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { AboutComponent } from './about/about.component';
 
 
 
@@ -35,6 +36,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     ContactComponent,
     AccountComponent,
     NotFoundComponent,
+    AboutComponent,
   ],
   imports: [
     CommonModule,

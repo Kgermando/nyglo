@@ -11,9 +11,9 @@ import { HomeSevenComponent } from './home-seven/home-seven.component';
 
 const routes: Routes = [
   {
-    path:'home-style-1',
+    path:'bienvenue',
     component:HomeOneComponent,
-    title:'Nyglo - Clean, Minimal eCommerce Angular Template',
+    title:'Nyglo - Accueil',
   },
   {
     path:'home-style-2',

@@ -10,16 +10,16 @@
     <nav class="side-mobile-menu d-block d-lg-none mm-menu">
       <ul>
         <ng-container *ngFor="let menu of mobile_menus; let i = index">
-          <li [ngClass]="'menu-item-has-children has-droupdown ' + (activeMenu === menu.title ? 'active' : '')">
+          <!-- <li [ngClass]="'menu-item-has-children has-droupdown ' + (activeMenu === menu.title ? 'active' : '')">
             <a (click)="handleOpenMenu(menu.title)">{{ menu.title }}</a>
             <ul [ngClass]="'sub-menu ' + (activeMenu === menu.title ? 'active' : '')">
               <li *ngFor="let sub_m of menu.dropdownMenu; let index = index">
                 <a [routerLink]="sub_m.link">{{ sub_m.title }}</a>
               </li>
             </ul>
-          </li>
+          </li> -->
           <li *ngIf="!menu.dropdownMenu">
-            <a [routerLink]="menu.link">{{ menu.title }}</a>
+            <a [routerLink]="menu.link" routerLinkActive="active">{{ menu.title }}</a>
           </li>
         </ng-container>
       </ul>

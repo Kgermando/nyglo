@@ -12,6 +12,7 @@ import { RegisterComponent } from './register/register.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { ContactComponent } from './contact/contact.component';
 import { AccountComponent } from './account/account.component';
+import { AboutComponent } from './about/about.component';
 
 
 const routes: Routes = [
@@ -69,6 +70,11 @@ const routes: Routes = [
     path: 'contact',
     component: ContactComponent,
     title: 'Contact Page',
+  },
+  {
+    path: 'about',
+    component: AboutComponent,
+    title: 'A propos de nyglo',
   },
   {
     path: 'account',
