@@ -17,7 +17,7 @@ import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   {
-    path: 'blog',
+    path: 'blog-1-col',
     component: BlogComponent,
     title: 'Blog Page',
   },
@@ -37,9 +37,9 @@ const routes: Routes = [
     title: 'Blog Two Col Page',
   },
   {
-    path: 'blog-3-col',
+    path: 'blog',
     component: BlogThreeColComponent,
-    title: 'Blog Three Col Page',
+    title: 'Blog Page',
   },
   {
     path: 'blog-details',

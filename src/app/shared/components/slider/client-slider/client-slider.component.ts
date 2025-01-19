@@ -13,13 +13,16 @@ export class ClientSliderComponent {
   @Input() style_2 : Boolean = false;
   // client logos
   public client_logos = [
-    '/assets/img/client/client-1.jpg',
-    '/assets/img/client/client-2.jpg',
-    '/assets/img/client/client-3.jpg',
-    '/assets/img/client/client-4.jpg',
-    '/assets/img/client/client-5.jpg',
-    '/assets/img/client/client-4.jpg',
-    '/assets/img/client/client-2.jpg',
+    '/assets/img/nyglo-client/anadec.png',
+    '/assets/img/nyglo-client/milvest.jpeg',
+    
+    // '/assets/img/client/client-1.jpg', 
+    // '/assets/img/client/client-2.jpg',
+    // '/assets/img/client/client-3.jpg',
+    // '/assets/img/client/client-4.jpg',
+    // '/assets/img/client/client-5.jpg',
+    // '/assets/img/client/client-4.jpg',
+    // '/assets/img/client/client-2.jpg',
   ]
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
