@@ -10,7 +10,7 @@
           <span>By <a href="#">{{blog.author}}</a></span>
           <span>/ {{blog.date}}</span>
       </div>
-      <p>Mirum est notare quam littera gothica, quam nunc putamus parum claram.</p>
+      <p>{{ blog.desc }} </p>
       <a [routerLink]="['/pages/blog-details', blog.id]" class="os-btn">Voir plus</a>
   </div>
 </div>

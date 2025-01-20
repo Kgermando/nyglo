@@ -57,7 +57,7 @@ export class BlogAreaComponent {
       this.pageNo = params['page'] ? params['page'] : this.pageNo;
       this.utilsService.filterBlogs().subscribe((response) => {
         // Sorting Filter
-        this.blogs = response.filter((b) => b.blog === 'blog-standard');
+        this.blogs = response.filter((b) => b.blog === 'home');
         // Paginate Products
         this.paginate = this.productService.getPager(this.blogs.length, Number(+this.pageNo), this.pageSize);
         this.blogs = this.blogs.slice(this.paginate.startIndex, this.paginate.endIndex + 1);

@@ -12,7 +12,7 @@
           <span>By <a href="#">{{blog.author}}</a></span>
           <span>/ {{blog.date}}</span>
       </div>
-      <p>Des produits très efficaces</p>
+      <p>{{ blog.desc }}</p>
       <a [routerLink]="['/pages/blog-details', blog.id]" class="os-btn">Voir plus</a>
   </div>
 </div>
