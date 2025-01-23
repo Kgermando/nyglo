@@ -14,6 +14,8 @@ export class ClientSliderComponent {
   // client logos
   public client_logos = [
     '/assets/img/nyglo-client/anadec.png',
+    '/assets/img/nyglo-client/min_commerce_exterieur.jpeg',
+    '/assets/img/nyglo-client/anapex.jpeg',
     '/assets/img/nyglo-client/milvest.jpeg',
     
     // '/assets/img/client/client-1.jpg', 
